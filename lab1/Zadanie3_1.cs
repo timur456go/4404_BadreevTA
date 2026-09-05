@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-class Task3_Method1
+class Zad3_1
 {
     static void Main()
     {
