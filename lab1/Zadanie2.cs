@@ -30,6 +30,6 @@ class Zad2_Static
         }
 
         foreach (Thread th in threads) th.Join();
-        Console.WriteLine("Статическое распределение завершено.");
+        Console.WriteLine("Статическое распределение завершено");
     }
 }
