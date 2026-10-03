@@ -5,7 +5,7 @@ class Zad2_Static
 {
     static void Main()
     {
-        const int N = 16000;
+        int N = Convert.ToInt32(Console.ReadLine());
         double[] a = new double[N];
         double[] b = new double[N];
         for (int i = 0; i < N; i++) a[i] = i;
