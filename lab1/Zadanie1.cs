@@ -5,7 +5,7 @@ class A
 {
     static void Main()
     {
-        int numThreads = 8; 
+        int numThreads = Convert.ToInt32(Console.ReadLine());
        
         Thread[] threads = new Thread[numThreads];
 
