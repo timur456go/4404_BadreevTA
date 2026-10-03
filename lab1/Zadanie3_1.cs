@@ -5,7 +5,7 @@ class Zad3_1
 {
     static void Main()
     {
-        int N = 8;
+        int N = Convert.ToInt32(Console.ReadLine());
         int expected = N - 1;
         object locker = new object();
 
